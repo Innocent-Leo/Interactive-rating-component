@@ -32,7 +32,6 @@ npm-debug.log*
 /.vscode
 *.swp
 *.swo
-/style-guide.md
 
 # Misc
 *.log
