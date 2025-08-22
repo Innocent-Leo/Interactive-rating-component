@@ -28,13 +28,14 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 88%;
+  max-width: 400px;
   background-color: var(--Grey-2);
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.2rem;
   font-size: 0.9375rem;
 }
 
@@ -46,6 +47,7 @@ body {
 
 .body-text {
   color: var(--Grey-1);
+  line-height: 1.5;
 }
 
 .ratings {
@@ -73,10 +75,6 @@ body {
   background-color: var(--accent);
 }
 
-/* .bg-active {
-  background-color: var(--Orange);
-} */
-
 .bg-selected {
   background-color: var(--White);
   color: var(--Grey-2);
@@ -92,6 +90,7 @@ body {
   font-weight: 700;
   letter-spacing: 2px;
   cursor: pointer;
+  margin-block-start: 0.8rem;
 }
 
 .submit-btn:hover {
