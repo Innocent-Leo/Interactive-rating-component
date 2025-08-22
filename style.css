@@ -53,8 +53,7 @@ body {
   justify-content: space-between;
 }
 
-.circle {
-  background-color: var(--accent);
+.rate {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -62,15 +61,39 @@ body {
   line-height: 45px;
   color: var(--Grey-1);
   font-weight: 700;
+  cursor: pointer;
+}
+
+.rate:hover {
+  background-color: var(--Orange);
+  color: var(--Grey-2);
+}
+
+.bg-normal {
+  background-color: var(--accent);
+}
+
+/* .bg-active {
+  background-color: var(--Orange);
+} */
+
+.bg-selected {
+  background-color: var(--White);
+  color: var(--Grey-2);
 }
 
 .submit-btn {
   background-color: var(--Orange);
   border: none;
-  height: 2.5rem;
+  height: 2.8rem;
   border-radius: 2rem;
   color: var(--Grey-2);
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: var(--White);
 }
